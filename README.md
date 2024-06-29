@@ -6,8 +6,8 @@ WhaTodo is a notepad app built using Kotlin and XML. It allows users to create, 
 
 - Create notes
 - Read notes
-- Update notes
-- Delete notes
+- Update notes(will be implimented soon)
+- Delete notes(will be implimented soon)
 - User-friendly interface
 
 ## Installation
