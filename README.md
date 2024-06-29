@@ -23,7 +23,7 @@ To get a local copy up and running, follow these simple steps.
 
 1. Clone the repository
    ```sh
-   git clone https://github.com/gaminem/whatodo.git
+   git clone https://github.com/GAMINEM/whatodo.git
 
 
 #Open the project in Android Studio
@@ -45,4 +45,4 @@ Distributed under the MIT License. See LICENSE for more information.
 Contact
 Your Name - Srit Biswas - biswassrit950433@gmail.com
 
-Project Link: https://github.com/gaminem/whatodo
+Project Link: https://github.com/GAMINEM/whatodo
