@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">What TODO</string>
+    <string name="enter_the_description">Enter the description</string>
+    <string name="add_note">Add Note.</string>
+    <string name="enter_the_tittle">Enter the Tittle</string>
+    <string name="todo">TODO</string>
+</resources>
