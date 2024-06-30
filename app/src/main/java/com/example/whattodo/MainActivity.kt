@@ -9,6 +9,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.whattodo.databinding.ActivityMainBinding
+import com.example.whattodo.NotesApdapter
 
 class MainActivity : AppCompatActivity() {
 
