@@ -29,12 +29,6 @@ class MainActivity : AppCompatActivity() {
         binding.notes.layoutManager = StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
         binding.notes.adapter = notesAdapter
 
-        notesAdapter.onItemClick ={
-            val intent = Intent(this, UpdateView::class.java)
-            startActivity(intent)
-        }
-
-
     }
 
     override fun onResume() {
