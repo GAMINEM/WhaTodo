@@ -1,6 +1,7 @@
 package com.example.whattodo
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,8 +10,6 @@ import androidx.recyclerview.widget.RecyclerView
 
 class NotesApdapter(private var notes: List<Note>) :
     RecyclerView.Adapter<NotesApdapter.NoteViewHolder>() {
-
-        var onItemClick: ((Note) -> Unit)? = null
 
     class NoteViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val titleTextView: TextView = itemView.findViewById(R.id.tittleTxt)
@@ -30,7 +29,10 @@ class NotesApdapter(private var notes: List<Note>) :
         holder.contentTextView.text = note.content
 
         holder.itemView.setOnClickListener{
-            onItemClick?.invoke(note)
+           val intent = Intent(holder.itemView.context, UpdateView::class.java).apply {
+               putExtra("noteId", note.id)
+           }
+                holder.itemView.context.startActivity(intent)
         }
     }
 
