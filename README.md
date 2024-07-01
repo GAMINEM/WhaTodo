@@ -6,7 +6,7 @@ WhaTodo is a notepad app built using Kotlin and XML. It allows users to create, 
 
 - Create notes
 - Read notes
-- Update notes(will be implimented soon)
+- Update notes
 - Delete notes(will be implimented soon)
 - User-friendly interface
 
@@ -26,7 +26,7 @@ To get a local copy up and running, follow these simple steps.
    git clone https://github.com/GAMINEM/whatodo.git
 
 
-#Open the project in Android Studio
+# Open the project in Android Studio
 Build and run the project on an emulator or physical device
 Usage
 After installation, you can use the app to manage your notes by creating, reading, updating, and deleting them.
@@ -45,9 +45,14 @@ Distributed under the MIT License. See LICENSE for more information.
 Contact
 Your Name - Srit Biswas - biswassrit950433@gmail.com
 
+
 Project Link: https://github.com/GAMINEM/whatodo
 
 
 ### UPDATES
 - 1st update - Basic notepad was added
 - 2nd update - No longer saves the empty notes
+
+  
+## APK
+- Will be added soon
