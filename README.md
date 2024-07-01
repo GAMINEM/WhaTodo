@@ -43,7 +43,7 @@ License
 Distributed under the MIT License. See LICENSE for more information.
 
 Contact
-Your Name - Srit Biswas - biswassrit950433@gmail.com
+- Srit Biswas - biswassrit950433@gmail.com
 
 
 Project Link: https://github.com/GAMINEM/whatodo
