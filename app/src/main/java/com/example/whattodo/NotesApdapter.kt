@@ -10,6 +10,8 @@ import androidx.recyclerview.widget.RecyclerView
 class NotesApdapter(private var notes: List<Note>) :
     RecyclerView.Adapter<NotesApdapter.NoteViewHolder>() {
 
+        var onItemClick: ((Note) -> Unit)? = null
+
     class NoteViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val titleTextView: TextView = itemView.findViewById(R.id.tittleTxt)
         val contentTextView: TextView = itemView.findViewById(R.id.contentTxt)
@@ -26,6 +28,10 @@ class NotesApdapter(private var notes: List<Note>) :
         val note = notes[position]
         holder.titleTextView.text = note.title
         holder.contentTextView.text = note.content
+
+        holder.itemView.setOnClickListener{
+            onItemClick?.invoke(note)
+        }
     }
 
     @SuppressLint("NotifyDataSetChanged")

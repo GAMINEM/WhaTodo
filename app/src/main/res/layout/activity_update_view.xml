@@ -15,7 +15,7 @@
         android:layout_height="44dp"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins_italic"
-        android:text="@string/add_note"
+        android:text="@string/update_note"
         android:textColor="@color/orange"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -26,7 +26,7 @@
         tools:ignore="TextSizeCheck" />
 
     <ImageView
-        android:id="@+id/saveBtn"
+        android:id="@+id/UpdateBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@id/textView"
@@ -41,15 +41,15 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/tittleTxt"
+        android:id="@+id/UpdateTittleTxt"
         android:layout_width="363dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/textView"
         android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
+        android:layout_marginLeft="12dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginRight="12dp"
         android:layout_marginBottom="16dp"
         android:autofillHints=""
         android:background="@drawable/orange_border"
@@ -65,10 +65,10 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/contentTxt"
+        android:id="@+id/UpdateContentTxt"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/tittleTxt"
+        android:layout_below="@id/UpdateTittleTxt"
         android:autofillHints=""
         android:background="@drawable/orange_border"
         android:fontFamily="@font/poppins_italic"
