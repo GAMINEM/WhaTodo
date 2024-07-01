@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private lateinit var db: NoteHelper
-    private lateinit var notesAdapter: NotesApdapter
+    private lateinit var notesAdapter: NotesAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         db = NoteHelper(this)
-        notesAdapter = NotesApdapter(db.getAllNotes())
+        notesAdapter = NotesAdapter(db.getAllNotes())
 
         binding.addBtn.setOnClickListener {
             val intent = Intent(this, AddNote::class.java)
@@ -36,4 +36,5 @@ class MainActivity : AppCompatActivity() {
         val notes = db.getAllNotes()
         notesAdapter.refreshData(notes)
     }
+
 }

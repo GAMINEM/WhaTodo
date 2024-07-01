@@ -8,8 +8,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class NotesApdapter(private var notes: List<Note>) :
-    RecyclerView.Adapter<NotesApdapter.NoteViewHolder>() {
+class NotesAdapter(private var notes: List<Note>) :
+    RecyclerView.Adapter<NotesAdapter.NoteViewHolder>() {
 
     class NoteViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val titleTextView: TextView = itemView.findViewById(R.id.tittleTxt)
@@ -41,5 +41,6 @@ class NotesApdapter(private var notes: List<Note>) :
         notes = newNotes
         notifyDataSetChanged()
     }
+
 }
 

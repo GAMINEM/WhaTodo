@@ -42,7 +42,11 @@ class UpdateView : AppCompatActivity() {
                             finish()
 
                     }
-
+                binding.deleteBtn.setOnClickListener {
+                    db.deleteNote(noteId)
+                    Toast.makeText(this, "Note deleted successfully", Toast.LENGTH_SHORT).show()
+                        finish()
+                }
         }
 
     }
