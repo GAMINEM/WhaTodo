@@ -46,3 +46,8 @@ Contact
 Your Name - Srit Biswas - biswassrit950433@gmail.com
 
 Project Link: https://github.com/GAMINEM/whatodo
+
+
+### UPDATES
+- 1st update - Basic notepad was added
+- 2nd update - No longer saves the empty notes
